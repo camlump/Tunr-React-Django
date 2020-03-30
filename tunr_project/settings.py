@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_extensions',
     'tunr_app',
-    'tunr'
+    
 ]
 
 MIDDLEWARE = [
