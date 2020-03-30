@@ -133,4 +133,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATIC_ROOT = '/var/sleepy-beach-55370/static/'s(locals())
+
+STATIC_ROOT = '/var/sleepy-beach-55370/static/'
+import django_heroku
+django_heroku.settings(locals())
